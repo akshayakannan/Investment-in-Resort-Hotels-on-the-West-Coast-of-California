@@ -1,1 +1,16 @@
 # Investment-in-Resort-Hotels-on-the-West-Coast-of-California
+Project Description
+
+# Introduction
+This project will give you an opportunity to apply many of the data analytical techniques covered in class. It will also allow you to work with a comprehensive data set collected from a real business context. In this project, you will have a chance to showcase your analytical techniques as well as decision-making skills on a new business problem. As the outcome of this project, you will make business decisions that are informed by your data analyses.
+
+# Major Objective and The Data
+You are a business consultant. An important client of yours has invested in a couple of resort hotels on the West Coast of California. The client wants to better understand the performance of the resort hotels. She has gathered data on 200 hotels in the area. The data are contained in the “hotels.csv” data file, which is posted on the course website. The variables include: 1. ID – the resort hotel ID, which is the unique IDs of the hotels 2. Year – this describes the year when the hotel started its business 3. Shuttle – whether the hotel has free airport shuttle service (coded as 1) or not (coded as 0). 4. Price – this is the average price per room night (in $) 5. Ads – this is the yearly advertising expenditure (in thousands of $ dollars) 6. View – this is the number of ocean-view rooms the hotel has 7. Food – the number of eateries (e.g., restaurants, cafes, or bars) in the hotel 8. Rating – this is a rating of the overall hotel service, a scale from 1 (very poor) to 10 (very good). 9. Positioning – whether the hotel positions or markets itself as family-styled (coded as 0) or business-oriented (coded as 1) 10. Room.Book – this measures the number of times rooms are booked per week. This indicates the volume of guests and is a key measure of success/revenues in hotel business. Your client would like you to help her interpret and eventually predict the room-book in the area as close to reality as possible. She also wants to know whether the data can help her determine what can be done to improve room-book.
+
+# Task Overview
+First, randomly select a subset of the 200 hotels. This random sample should contain 170 hotels. Create a data frame of this sample and call it “hotel.training” (i.e., the training set). Create another data frame of the rest of the hotels (n = 30) and call it “hotel.testing” (i.e., the testing set). Make sure you save and export your training and testing sets at the very beginning of your work. Both sets need to be submitted along with your final report. You can read “A conceptual note on the project procedure” in the appendix for more information.
+
+Second, use multiple regression to explain room-book. Your goal is to find which variables influence room-book as part of a multiple regression model. You will interpret the results of the model and use it for predictions on the testing set.
+
+Lastly, you need to make prediction using the data in the testing set. Based on your prediction, you need to make the decision on “which 10 hotels ranked highest in room-book”. Then validate your prediction using the real room-book values in the testing set. Discuss your predictions (i.e., answer the specific questions below; see “Specific Requirements in the Project Report”).
+
