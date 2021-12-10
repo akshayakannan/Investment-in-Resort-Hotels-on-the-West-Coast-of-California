@@ -1,0 +1,1 @@
+# Investment-in-Resort-Hotels-on-the-West-Coast-of-California
